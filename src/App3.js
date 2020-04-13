@@ -6,7 +6,7 @@ class App3 extends React.Component {
         user: {
             nombre: "Alexis",
             pais: "Argentina",
-            youtube: "alexis.youtube.com|"
+            youtube: "alexis.youtube.com"
         }
     }
     render() {

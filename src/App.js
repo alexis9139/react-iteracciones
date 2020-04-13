@@ -17,7 +17,7 @@ class App extends React.Component {
         <ul>
           {frutas.map((fruta) => {
             return (
-              <li>{fruta}</li>
+              <li key={fruta}>{fruta}</li>
             )
           })}
         </ul>
